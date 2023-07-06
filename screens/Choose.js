@@ -14,6 +14,7 @@ import SafeView from '../components/SafeView'
 import starter from '../assets/initial.json'
 import { addPokemon, getPokemon, reset } from '../utils/pokemon'
 import { useEffect } from 'react'
+import { addPokedollars } from '../utils/steps'
 
 const styles = StyleSheet.create({
   container: {
@@ -97,12 +98,9 @@ export default function Choose({ navigation }) {
     let color = colors.dominant || colors.background
     if (color === '#000' || color === '#000000') color = '#fff'
     await addPokemon(id, name, sprite, color, 0, 450)
-    navigation.navigate('Pokemon', { id })
+    await addPokedollars(5)
+    navigation.navigate('Home')
   }
-
-  useEffect(() => {
-    reset()
-  }, [])
 
   return (
     <SafeView style={styles.container}>

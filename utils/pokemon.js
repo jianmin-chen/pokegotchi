@@ -71,6 +71,11 @@ export async function updatePokemon(id, update) {
   return pokemon[p]
 }
 
+export async function evolve(id) {
+  // Evolve Pokemon
+  const chain = await fetch(`https://pokeapi.co/api/v2/evolution-chain/${id}`)
+}
+
 export async function reset() {
   await AsyncStorage.setItem(POKEMON_KEY, JSON.stringify([]))
 }

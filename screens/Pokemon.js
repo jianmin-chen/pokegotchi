@@ -15,6 +15,7 @@ import Pokedollars from '../components/Pokedollars'
 
 const styles = StyleSheet.create({
   sprite: {
+    backgroundColor: 'transparent',
     shadowColor: 'black',
     shadowOffset: {
       width: 0,
@@ -80,7 +81,8 @@ const styles = StyleSheet.create({
     height: 10,
     borderRadius: 25,
     marginBottom: 15,
-    position: 'relative'
+    position: 'relative',
+    alignSelf: 'center'
   },
   progress: {
     backgroundColor: 'yellow',
@@ -93,7 +95,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    paddingHorizontal: 5
+    paddingHorizontal: 10
   },
   choose: {
     borderWidth: 1,
@@ -147,10 +149,11 @@ export default function Pokemon({ navigation, route }) {
       setUpgrade(pokemon.upgrade)
       setHunger(pokemon.hunger)
       setEnergy(pokemon.energy)
+      console.log(pokemon.energy)
     }
 
     loadInfo()
-  }, [])
+  }, [id])
 
   return (
     <SafeView style={{ backgroundColor: theme, flex: 1, padding: 20 }}>
@@ -203,10 +206,10 @@ export default function Pokemon({ navigation, route }) {
                   StyleSheet.absoluteFill,
                   {
                     position: 'absolute',
-                    top: 45 - 25,
+                    top: 45 - hunger / 100,
                     left: 0,
                     width: 45,
-                    height: 25,
+                    height: hunger / 100,
                     backgroundColor: '#fd9970',
                     zIndex: -1,
                     borderBottomLeftRadius: 15,
@@ -230,10 +233,10 @@ export default function Pokemon({ navigation, route }) {
                   StyleSheet.absoluteFill,
                   {
                     position: 'absolute',
-                    top: 45 - 25,
+                    top: 45 - energy / 100,
                     left: 0,
                     width: 45,
-                    height: 25,
+                    height: energy / 100,
                     backgroundColor: '#fed92b',
                     zIndex: -1,
                     borderBottomLeftRadius: 15,

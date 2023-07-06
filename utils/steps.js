@@ -17,9 +17,17 @@ export async function getPokedollars() {
   let pokedollars = await AsyncStorage.getItem(POKEDOLLARS_KEY)
 
   if (!pokedollars) pokedollars = 0
-  else pokedollars = JSON.parse(pokedollars)
+  else pokedollars = Number(pokedollars)
 
   return pokedollars
+}
+
+export async function addPokedollars(amount, convert = false) {
+  let pokedollars = await getPokedollars()
+  return await AsyncStorage.setItem(
+    POKEDOLLARS_KEY,
+    JSON.stringify(pokedollars + (convert ? Math.floor(amount / 3) : amount))
+  )
 }
 
 export async function addDay(date, amount) {

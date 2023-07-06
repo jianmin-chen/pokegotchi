@@ -6,6 +6,8 @@ import Choose from './screens/Choose'
 import Pokemon from './screens/Pokemon'
 import Home from './screens/Home'
 import { StatusBar } from 'react-native'
+import { useEffect, useState } from 'react'
+import { getAllPokemon } from './utils/pokemon'
 
 SplashScreen.preventAutoHideAsync()
 
@@ -26,7 +28,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <StatusBar backgroundColor="#1a73e8" />
-      <Stack.Navigator initialRouteName={'Choose'}>
+      <Stack.Navigator initialRouteName="Home">
         <Stack.Screen
           options={{ headerShown: false }}
           name="Choose"
