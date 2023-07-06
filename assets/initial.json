@@ -1,0 +1,127 @@
+[
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/25.png"
+  },
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png"
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/4.png"
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/7.png"
+  },
+  {
+    "id": 153,
+    "name": "Chikorita",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/152.png"
+  },
+  {
+    "id": 155,
+    "name": "Cyndaquil",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/155.png"
+  },
+  {
+    "id": 158,
+    "name": "Totodile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/158.png"
+  },
+  {
+    "id": 252,
+    "name": "Treecko",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/252.png"
+  },
+  {
+    "id": 255,
+    "name": "Torchic",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/255.png"
+  },
+  {
+    "id": 258,
+    "name": "Mudkip",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/258.png"
+  },
+  {
+    "id": 387,
+    "name": "Turtwig",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/387.png"
+  },
+  {
+    "id": 398,
+    "name": "Chimchar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/390.png"
+  },
+  {
+    "id": 393,
+    "name": "Piplup",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/393.png"
+  },
+  {
+    "id": 495,
+    "name": "Snivy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/495.png"
+  },
+  {
+    "id": 498,
+    "name": "Tepig",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/498.png"
+  },
+  {
+    "id": 501,
+    "name": "Oshawott",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/501.png"
+  },
+  {
+    "id": 650,
+    "name": "Chespin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/650.png"
+  },
+  {
+    "id": 653,
+    "name": "Fennekin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/653.png"
+  },
+  {
+    "id": 656,
+    "name": "Froakie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/656.png"
+  },
+  {
+    "id": 722,
+    "name": "Rowlet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/722.png"
+  },
+  {
+    "id": 725,
+    "name": "Litten",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/725.png"
+  },
+  {
+    "id": 728,
+    "name": "Popplio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/728.png"
+  },
+  {
+    "id": 810,
+    "name": "Grookey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/810.png"
+  },
+  {
+    "id": 813,
+    "name": "Scorbunny",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/813.png"
+  },
+  {
+    "id": 816,
+    "name": "Sobble",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/816.png"
+  }
+]
